@@ -8,9 +8,62 @@ body {
 }
 
 .wrapper {
-    width: 50%;
+    width: 33%;
     height: 600px;
     background-color: white;
     margin: 0 auto;
     margin-top: 70px;
+    text-align: center;
+}
+
+
+/*images*/
+
+.images img {
+    padding-top: 20px;
+    height: 120px;
+    width: 120px;
+}
+
+.images p {
+    margin-top: 30px;
+    color: darkgrey;
+}
+
+
+/*form*/
+
+.form {
+    position: relative;
+    margin-top: 30px;
+}
+
+.icon {
+    position: relative;
+    margin: 0 auto;
+}
+
+.icon i {
+    width: 10%;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    font-size: 40px;
+    /*    margin-left: 30px;*/
+}
+
+.xo {
+    margin-left: 90px;
+    width: 80%;
+}
+
+input[type=text] {
+    width: 80%;
+    border: none;
+    border-bottom: 2px solid red;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 12px 20px 12px 10px;
+    line-height: 35px;
+    margin-right: 30px;
 }
