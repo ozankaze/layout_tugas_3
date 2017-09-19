@@ -1,0 +1,16 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #2196f3;
+}
+
+.wrapper {
+    width: 50%;
+    height: 600px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 70px;
+}
