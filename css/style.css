@@ -30,7 +30,7 @@ body {
 
 .images p {
     margin-top: 20px;
-    color: #969663;
+    color: #65685f;
 }
 
 
@@ -42,7 +42,7 @@ body {
     margin: 0 auto;
 }
 
-.form p {
+.form p a {
     margin-top: 10px;
 }
 
