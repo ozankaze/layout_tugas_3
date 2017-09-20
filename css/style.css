@@ -85,12 +85,18 @@ input[type=submit] {
 
 input[type=email]:focus {
     background-color: #26a59a;
+    border-bottom: 2px solid red;
+    transition: 2s;
 }
 
 input[type=text]:focus {
     background-color: #26a59a;
+    border-bottom: 2px solid red;
+    transition: 2s;
 }
 
 input[type=password]:focus {
     background-color: #26a59a;
+    border-bottom: 2px solid red;
+    transition: 2s;
 }
