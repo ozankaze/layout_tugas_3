@@ -5,16 +5,16 @@
 
 body {
     background-color: #2196f3;
-    font-family: 'Lato', sans-serif;
-    height: 800px;
+    font-family: 'Roboto', sans-serif;
+    height: 700px;
 }
 
 .wrapper {
-    width: 33%;
-    height: 690px;
+    width: 32%;
+    height: 610px;
     background-color: white;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 20px;
     text-align: center;
     box-shadow: 0px 3px 5px -1px rgba(0. 0. 0, 3);
 }
@@ -31,6 +31,7 @@ body {
 .images p {
     margin-top: 20px;
     color: #65685f;
+    font-size: 15px;
 }
 
 
@@ -47,60 +48,51 @@ body {
 }
 
 .icon {
-    width: 90%;
     position: relative;
-    margin: 0 auto;
-    margin-bottom: 20px;
 }
 
 .icon i {
-    width: 14%;
+    width: 26%;
     position: absolute;
-    bottom: 10px;
-    left: -15px;
-    font-size: 40px;
+    bottom: 7px;
+    left: -21px;
+    font-size: 30px;
 }
 
 .xo {
-    margin-left: 50px;
+    margin-left: 45px;
 }
 
 input {
-    width: 92%;
+    width: 80%;
     border: none;
-    border-bottom: 2px solid #b0b0b0;
-    font-size: 18px;
-    margin-top: 20px;
-    padding: 12px 20px 12px 10px;
+    border-bottom: 1px solid #b0b0b0;
+    font-size: 17px;
+    margin-top: 32px;
+    padding: 5px 20px 2px 10px;
     line-height: 35px;
-    margin-right: 30px;
 }
 
 input[type=submit] {
     width: 90%;
     background-color: #26a59a;
     color: white;
-    padding: 5px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
+    padding: 1px;
+    margin: 0 auto;
+    border-radius: 1px;
     cursor: pointer;
+    margin-top: 8%;
+    margin-bottom: 3%;
 }
 
-input[type=email]:focus {
-    background-color: #26a59a;
-    border-bottom: 2px solid #2196f3;
-    transition: 12s;
+a {
+    text-decoration: none;
 }
 
-input[type=text]:focus {
-    background-color: #26a59a;
-    border-bottom: 2px solid #2196f3;
-    transition: 12s;
+.bawahbutton {
+    font-size: 15px;
 }
 
-input[type=password]:focus {
-    background-color: #26a59a;
-    border-bottom: 2px solid #2196f3;
-    transition: 12s;
+.bawahbutton a {
+    color: #429fe4;
 }
