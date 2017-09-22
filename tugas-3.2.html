@@ -5,33 +5,67 @@
     <meta charset="UTF-8">
     <title>tugas-3.2</title>
     <link rel="stylesheet" href="css/tugas-3.2.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
 </head>
 
 <body>
     <div class="wrapper">
-        <div class="form">
-            <div class="kanan">
+        <div class="container">
+            <div class="card-left">
                 <div class="kanansatu">
-                    <img style="-webkit-user-select: none;background-position: 0px 0px, 10px 10px;background-size: 20px 20px;background-image:linear-gradient(45deg, #eee 25%, transparent 25%, transparent 75%, #eee 75%, #eee 100%),linear-gradient(45deg, #eee 25%, white 25%, white 75%, #eee 75%, #eee 100%);cursor: zoom-in;" src="https://maxcdn.icons8.com/Share/icon/Very_Basic//search_filled1600.png" width="80" height="80">
-                    <div class="bawah">
-                        <p>SIGN IN or LOG IN using sosial media</p>
-                        <p>to get quick access</p>
+                    <div class="kanandua">
+                        <i class="material-icons">visibility</i>
+                        <div class="bawah">
+                            <p>SIGN IN or LOG IN using sosial media</p>
+                            <p>to get quick access</p>
+                        </div>
+                        <div class="spa">
+                            <i class="fa fa-facebook" aria-hidden="true"></i>
+                            <a href="https://www.facebook.com/">CONTINUE WITH FACEBOOK</a>
+                        </div>
                     </div>
-                    <a href="#">CONTINUE WITH FACEBOOK</a>
                 </div>
             </div>
-            <div class="kiri">
-                <form action="">
-                    <input type="text" name="search" placeholder="Username">
-                </form>
+            <div class="card-right">
+                <div class="kirisatu">
+                    <div class="kiridua">
+                        <i class="material-icons">clear</i>
+                    </div>
+                    <div class="box">
+                        <div class="headling-left">
+                            <h2>ALREADY MEMBER</h2>
+                        </div>
+                        <div class="headling-right">
+                            <h2>I AM NEW HERE</h2>
+                        </div>
+                        <form action="">
+                            <input type="email" name="search" placeholder="EMAIL OR USERNAME"><br>
+                            <input type="password" name="search" placeholder="PASSWORD"><br>
+                            <input type="checkbox" value="None" id="squaredFour" name="check" checked>
+                            <div class="squaredFour">
+                                <div class="linkcheck">
+                                    <a href="">Remember me</a>
+                                </div>
+                                <div class="linkcheck1">
+                                    <a href="">Forgot Password ?</a>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="bawah">
+                            <!--                            <a href="#">LOG IN</a>-->
+                            <input type="submit" value="LOG IN">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-
-
     </div>
-
 </body>
 
 </html>
