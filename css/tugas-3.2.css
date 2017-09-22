@@ -4,62 +4,226 @@
 }
 
 body {
+    font-family: 'Lato', sans-serif;
     width: 100%;
     height: 500px;
-    background-image: url(https://images.unsplash.com/photo-1454165205744-3b78555e5572?dpr=1&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=);
+    background-image: url(https://static.pexels.com/photos/110854/pexels-photo-110854.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .wrapper {
-    margin-top: 10%;
+    width: 100%;
+    margin-top: 2%;
 }
 
-.form {
-    height: 400px;
-    width: 50%;
+.container {
+    height: 570px;
+    width: 60%;
     margin: 0 auto;
-    background-color: azure;
-    opacity: 0.5;
 }
 
-.kanan {
+.card-left {
     /*    position: relative;*/
-    background-color: aquamarine;
-    height: 340px;
-    width: 40%;
+    background-color: rgba(239, 118, 88, 0.6);
+    height: 510px;
+    width: 30%;
     float: left;
     padding: 30px;
+    /*    opacity: 0.8;*/
 }
 
 .kanansatu {
     width: 100%;
     margin: 0 auto;
-    height: 250px;
-    background-color: darkorange;
-    margin-top: 15%;
-    /*    line-height: 50px;*/
-    /*    padding: 10px;*/
+    height: 510px;
+    background-color: rgba(239, 118, 88, 0);
+}
+
+.kanandua {
+    padding-top: 110px;
+}
+
+.kanandua i {
+    font-size: 100px;
 }
 
 .kanansatu .bawah {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 .kanansatu a {
     text-decoration: none;
-    padding: 10px;
-    background-color: aqua;
+    padding: 8%;
+    color: white;
+    background-color: #5474b7;
     display: block;
+    font-size: 12px;
     text-align: center;
-    margin: 5%;
-    /*    margin-left: 7%;*/
+    font-weight: bold;
 }
 
-.kiri {
-    background-color: orchid;
-    height: 400px;
-    /*    width: 60%;*/
+.spa {
+    position: relative;
+    width: 100%;
+}
+
+.spa i {
+    width: 10%;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: #5474b7;
+    color: white;
+}
+
+.spa a {
+    padding-left: 55px;
+}
+
+.card-right {
+    background-color: #fff;
+    height: 570px;
+    width: 60%;
+    float: left;
+    /*    padding: 30px;*/
+}
+
+.kirisatu {
+    /*    text-align: right;*/
+}
+
+.kirisatu i {
+    /*    text-align: right;*/
+    font-size: 30px;
+}
+
+.kiridua {
+    text-align: right;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.box {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.headling-left {
+    text-align: center;
+    width: 50%;
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.headling-left h2 {
+    font-weight: normal;
+    padding-bottom: 5px;
+    border-bottom: 5px solid #f37254;
+}
+
+.headling-right {
+    text-align: center;
+    width: 50%;
+    float: left;
+    font-size: 13px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.headling-right h2 {
+    font-weight: normal;
+    padding-bottom: 8px;
+    border-bottom: 2px solid black;
+}
+
+input[type="password"] {
+    width: 94%;
+    padding: 20px 10px;
+    display: block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="email"] {
+    width: 94%;
+    padding: 20px 10px;
+    display: block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+/*chedckbox*/
+
+input[type="checkbox"] {
+    height: 25px;
+    width: 25px;
+    float: left;
+}
+
+.squaredFour {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    /*    margin: 20px auto;*/
+    /*    float: left;*/
+}
+
+.linkcheck a {
+    width: 40%;
+    float: left;
+    margin-left: 10px;
+}
+
+.linkcheck1 a {
+    width: 41%;
+    float: right;
+    text-align: right;
+}
+
+
+/*
+.bawah a {
+    clear: both;
+    padding: 20px 169px;
+    color: white;
+    font-weight: bold;
+    background-color: #ee7657;
+}
+*/
+
+input[type=submit] {
+    /*
+    width: 90%;
+    background-color: #26a59a;
+    color: white;
+    padding: 20px 169px;
+    margin: 0 auto;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 8%;
+    margin-bottom: 3%;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+*/
+    clear: both;
+    padding: 20px 171px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ee7657;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
 }
